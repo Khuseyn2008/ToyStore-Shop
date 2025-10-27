@@ -1,0 +1,27 @@
+@import "./tailwind.css";
+@layer utilities {
+  .varela {
+    font-family: "Varela Round", sans-serif;
+  }
+
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .margin-x {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+
+  .hero-section {
+    background-image: url(./img/hero__img.png);
+  }
+
+  .bg-bear{
+    background-image: url(./img/bg-bear-img.png);
+    opacity: 90%; 
+   }
+}
+
+@layer base {
+}
