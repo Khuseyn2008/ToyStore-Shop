@@ -39,3 +39,20 @@ modalContact.addEventListener('click', () => {
 
 // Сразу скажу нету тут ИИ это БАЗА ! :)
 
+
+const modalProfile = document.querySelector('.profile');
+const profileModal = document.querySelector('.profileModal');
+
+modalProfile.addEventListener('click', (e) => {
+    e.preventDefault();
+    profileModal.classList.remove('hidden');
+    profileModal.classList.add('flex');
+  });
+
+const profileBtnQuit = document.querySelector('.profile-btn-quit')
+
+profileBtnQuit.addEventListener('click', (e) =>{
+  e.preventDefault();
+  profileModal.classList.remove('flex');
+  profileModal.classList.add('hidden');
+});
